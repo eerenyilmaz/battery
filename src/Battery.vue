@@ -1,39 +1,5 @@
 <template>
     <div id="battery-app">
-     <!-- <div style="flex-direction: row;display: flex">
-        <div class="main-div" :style="borderStyle">
-
-          <div class="low" :style="customStyleLow"></div>
-
-          <div class="medium" :style="customStyleMedium"></div>
-
-          <div class="medium-one" :style="customStyleMedium1"></div>
-
-          <div class="high" :style="customStyleHigh"></div>
-
-          <div class="high-one" :style="customStyleHigh1"></div>
-
-          <img src="../src/img/thunderRed.png" class="thunderRed" :style="customImg">
-          <img src="../src/img/thunderYellow.png" class="thunderYellow" :style="customImgY">
-          <img src="../src/img/thunderGreen.png" class="thunderGreen" :style="customImgG">
-        </div>
-        <div class="last-div" :style="{backgroundColor : color}">
-
-        </div>
-
-      </div>
-      <div>
-        <button @click="openCharge">Open Charge</button>
-        <button @click="changeLow">+1</button>
-        <button @click="changeMedium">+2</button>
-        <button @click="changeMedium1">+3</button>
-        <button @click="changeHigh">+4</button>
-        <button @click="changeHigh1">+5</button>
-      </div>-->
-
-
-
-
 
       <div style="flex-direction: row;display: flex">
         <div class="main-div" :style="borderStyle">
@@ -232,7 +198,7 @@ export default {
   width: 100px;
   height:150px;
   position: absolute;
-  left: 580px;
+  left: 500px;
   display: none;
 }
 .thunderYellow{
@@ -240,7 +206,7 @@ export default {
   width: 100px;
   height:150px;
   position: absolute;
-  left: 580px;
+  left: 500px;
   display: none;
 }
 .thunderGreen{
@@ -248,7 +214,7 @@ export default {
   width: 100px;
   height:150px;
   position: absolute;
-  left: 580px;
+  left: 500px;
   display: none;
 }
 .medium{
